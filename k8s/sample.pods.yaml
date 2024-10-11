@@ -1,0 +1,15 @@
+#sample yamal code
+
+apiVersion: v1
+kind: pod
+matadata:
+  name: nginx-pod
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    ports:
+    - containerport: 80
+    
+     
+
